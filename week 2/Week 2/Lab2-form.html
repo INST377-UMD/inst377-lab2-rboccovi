@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact Form</title>
+    <style>
+body {
+            background-color: rgb(166, 224, 180);
+            font-family: monospace;
+        }
+ 
+        .contactus{
+            background-color: rgb(171, 230, 175);
+        }
+        /* Style the submit button */
+input[type="submit"] {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+                        }
+/* Style the div containing text boxes */
+.contactUs {
+    margin: 70px;
+                      }
+/* Hover effect for the submit button */
+input[type="submit"]:hover {
+    background-color: brown; /* Darker green */
+}
+/* Style the labels */
+label {
+    font-size: 10px; /* Increase label font size */
+    display: block;
+    margin-bottom: 5px
+}
+    </style>
+</head>
+<body>
+    <h1> Let Us Know How We Can Reach You!</h1>
+    <!-- User info -->
+          <h3>Fill out this form:</h3>
+     <div class="contactUs">
+    <form name="contactForm" method="get" action="Lab2_successform.html">
+        <label for="FirstName"> Enter your first name</label>
+        <input type="text" id="FirstName"  placeholder="David" required>  </br></br>
+        <label for="LastName"> Enter your Last name</label>
+        <input type="text" id="LastName"  placeholder="Johnson" required> </br></br>
+        <label for="Email"> Enter your Prefeered email </label>
+        <input type="text" id="Email"  placeholder="DJohnson@gmail.com" required> </br></br>
+       <label for="Phone Number "> Enter your phone number</label>
+        <input type="text" id="Phonenumber"  placeholder="000-000-000" required> </br></br>
+   
+        
+<!-- Date-->
+        <label for="TodaysDate"> Today's Date</label>
+        <input type="date" id = "TodaysDate" required>
+    </div>
+    
+       <hr>
+       <input type="submit" > </form> </br>
+    </form>
+    
+</body>
+</html>
